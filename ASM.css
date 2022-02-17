@@ -1,0 +1,250 @@
+body{
+    padding:0px;
+    margin:0px;
+
+}
+.container{
+    max-width: 1000px;
+    min-width: 1000px;
+    margin:0px auto;
+    height: 200px;
+    min-height: 50px;
+    
+   
+}
+.container>header{
+    background: aqua;
+     width: 100%;
+     height: 30%;
+     font-variant: small-caps;
+     font-size: larger;
+     border: 5px solid blue ;
+    
+   
+}
+.container .login-header{
+    text-decoration: none;
+    border: 5px solid rgb(12, 12, 12);
+    background: rgb(27, 27, 26);
+    color:white;
+    margin-left: 100px;
+}
+.container .login-header:hover{
+    background: red;
+    color: black;
+    border: 5px solid red ;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+   
+    
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color:blue;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size:larger;
+    padding:0 10px;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+    color: black;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 20px 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.menu>ul{
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+
+}
+.menu ul ul a:hover{
+    
+    color: black;
+    background: green;
+}
+a>.column{
+    width: 23%;
+    float: left;
+    border-radius: 5%;
+    padding: 10px;
+}
+.san-pham{
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham.ten{
+    font-size: larger;
+    font-variant:small-caps ;
+    color: blue;
+}
+.san-pham>img{
+   max-width: 95%;
+   height: 200px;
+}
+.san-pham>.gia{
+    font-size: larger;
+    color: red;
+    font-weight:bold
+    
+
+}
+.san-pham>.gia>del{
+    color: rgb(238, 15, 15);
+}
+.column:hover{
+   color: crimson;
+   box-shadow:  0 0 20px rgb(247, 13, 4);
+
+}
+footer>h2{
+    border-top:5px double brown ;
+    line-height:100px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant:small-caps;
+    font-size: larger;
+    clear:both;
+}
+footer>h2>a>img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 5px solid yellow;
+    
+}
+footer>h2>a>img:hover{
+    box-shadow: 5px 20px red ;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+footer>h2>img:hover{
+    box-shadow:  20px red ;
+}
+
+footer>h2>img{
+    float:right;
+    width: 10%;
+    height: 100px;
+    border: 5px solid yellow;
+    box-shadow: inset;
+    
+    
+}
+.thanh-text{
+    padding:0px;
+    margin: 0px;
+}
+.search-text{
+    width: 100%;
+    height: 40px;
+    background-color: none;
+    border: 5px solid rgb(26, 22, 22);
+    border-radius: 10px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.search-text input{
+    height: 38px;
+    width: 80%;
+    border: none;
+    
+}
+.search-text>a>img{
+    width: 50px;
+    height: 38px;
+    line-height: 38px;
+    position: absolute;
+    right: 150px;
+}
+.search-text>a>.img2{
+    width: 50px;
+    height: 38px;
+    line-height: 38px;
+   position: absolute;
+   right: 0px;
+   
+}
+.search-text>a>.img2:hover{
+    border: 5px solid rgb(94, 3, 63);
+   
+    font-size: medium;
+    position: absolute;
+}
+.search-text input:hover{
+    font-size: medium;
+    font-style: inherit;
+    padding-left:20px ;
+    color: black;
+}
+footer{
+    max-width: 1000px;
+    min-width: 1000px;
+    margin:0px auto;
+    height: 150px;
+    max-height: 300px;
+    
+}
+.footer-text>h2{
+    border-top:5px double brown ;
+    line-height:20px;
+    
+    background-color: rgb(3, 170, 247);
+    text-align: left;
+    font-variant:unset;
+    font-size: medium;
+    clear:both;
+    color: rgba(7, 7, 7, 0.836);
+   
+}
+.footer-link{
+    display: inline-block;
+    padding-left: 100px;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-link ul{
+    list-style: none;
+}
+.footer-link ul li a:hover{
+    color: black;
+    
+}

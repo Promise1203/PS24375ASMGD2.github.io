@@ -1,0 +1,152 @@
+body{
+    padding:0px;
+    margin:0px;
+    height: 250px;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+.column{
+    width: 25%;
+    
+    float: left;
+  
+}
+.san-pham{
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham.ten{
+    font-size: larger;
+    font-variant:small-caps ;
+    color: blue;
+}
+.san-pham>img{
+   max-width: 95%;
+}
+.san-pham>.gia{
+    font-size: larger;
+    color: red;
+    font-weight:bold
+    
+
+}
+.san-pham>.gia>del{
+    color: gray;
+}
+.column:hover{
+   font-size: large;
+   font-variant: small-caps;
+   color: black;
+   
+
+}
+footer>h2{
+    border-radius:25px double brown ;
+    line-height:100px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant:small-caps;
+    font-size: larger;
+    clear:both;
+    
+    
+}
+footer>h2>a>img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 5px solid yellow;
+    box-shadow: inset;
+}
+
+aside{
+    float:left;
+    width: 10px;
+
+    
+}
+footer>h2>img{
+    float:right;
+    width: 10%;
+    height: 100px;
+    border: 5px solid yellow;
+    box-shadow: inset;
+    
+    
+}
+form>a>img{
+    border: 5px solid red;
+    background-color: red;
+    width: 5%;
+    height: 50px;
+}
+.form-text:hover{
+    background-color: plum;
+    
+    
+}
+article{
+    height: 450px;
+    position: relative;
+}
+footer>h2>img{
+    float:right;
+    width: 10%;
+    height: 100px;
+    border: 5px solid yellow;
+    box-shadow: inset;
+    
+    
+}
+article{
+    position: relative;
+}
+.aside-1{
+    position: absolute;
+    margin: 20px 20px 20px 20px;
+    bottom: 100px;
+}
+article>a>img{
+    width: 100px;
+    height: 100px;
+    background-image: none;
+    border: 20px solid red;
+}
+
+.aside-1>.img1{
+    top: 100px;
+    right: 400px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    border: 1px;
+    background: pink;
+    max-width: 200px;
+    min-width: 200px;
+   
+}
+.aside-1>.img2{
+  
+    top: 100px;
+    right: 100px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    border: 1px;
+    max-width: 200px;
+    background: pink;
+    margin:5px 5px 5px 5px;
+}
+.aside-1>.img3{
+    
+    top: 100px;
+    right: 700px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    border: 1px;
+    background: pink;
+    max-width: 200px;
+    
+}
